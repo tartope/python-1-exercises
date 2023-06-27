@@ -1,4 +1,4 @@
-from exercises import ex1, ex2, ex3, ex4, ex5, ex9
+from exercises import ex1, ex2, ex3, ex4, ex5, ex9, ex6, ex7, ex8, ex13
 
 
 def main():
@@ -18,10 +18,26 @@ def main():
     # sentence2 = ex5.replace_period(sentence, punctuation)
     # print(sentence2)
 
+    # ex6.slice_it()
+    # array = ["this", "is", "another", "test"]
+    # r = ex6.slice_it(array)
+    # print(r)
+
+    # array = [2.00, 4.00, 4.00]
+    # tax = "10%"
+    # result = ex7.calc_total(array, tax)
+    # print(result)
+
+    print(ex8.f_to_c(22))
+    print(ex8.c_to_f(-6))
+
     # ex9.vowel_counter()
-    sentence = input("Enter sentence: ")
-    num_vowels = ex9.vowel_counter(sentence)
-    print(num_vowels)
+    # sentence = input("Enter sentence: ")
+    # num_vowels = ex9.vowel_counter(sentence)
+    # print(num_vowels)
+
+    # wordlist = ["Hello", "World", "in", "a", "frame"]
+    # ex13.frame_it(wordlist)
 
               
 
