@@ -1,4 +1,4 @@
-from exercises import ex1, ex2, ex3, ex4, ex5, ex9, ex6, ex7, ex8, ex13
+from exercises import ex1, ex2, ex3, ex4, ex5, ex6, ex7, ex8, ex9, ex10, ex13
 
 
 def main():
@@ -28,13 +28,17 @@ def main():
     # result = ex7.calc_total(array, tax)
     # print(result)
 
-    print(ex8.f_to_c(22))
-    print(ex8.c_to_f(-6))
+    # print(ex8.f_to_c(22))
+    # print(ex8.c_to_f(-6))
 
     # ex9.vowel_counter()
     # sentence = input("Enter sentence: ")
     # num_vowels = ex9.vowel_counter(sentence)
     # print(num_vowels)
+
+    while True:
+        result = ex10.calculator()
+        print(result)
 
     # wordlist = ["Hello", "World", "in", "a", "frame"]
     # ex13.frame_it(wordlist)
